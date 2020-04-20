@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Segmented Control</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Manrope&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <!--
+        Create a segmented control that turns into a <select> for mobile screens.
+        They should sync whenever any of them is changed.
+    -->
+    <div class="container">
+      <div class="row">
+        <div id="sort-by-price" class="filter-option">
+          Sort by price
+        </div>
+        <div id="sort-by-name" class="filter-option">
+          Sort by name
+        </div>
+        <div id="sort-by-relevance" class="filter-option">
+          Sort by relevance
+        </div>
+      </div>
+
+      <select class="select">
+        <option value="sort-by-price">Sort by price</option>
+        <option value="sort-by-name">Sort by name</option>
+        <option value="sort-by-relevance">Sort by relevance</option>
+      </select>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="scripts/index.js" charset="utf-8"></script>
+  </body>
+</html>
