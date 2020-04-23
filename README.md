@@ -1,6 +1,8 @@
 # FrontLoops Challenge 1 - JavaScript
 ## Loop 1 - Step 1
 
+[Link to Completed Web Page](https://brianhyun.github.io/frontloops-js-challenge1/)
+
 The challenge was to recreate the webpage/interaction as presented in the mp4 file provided by FrontLoops.
 
 ### FrontLoops Reference Screenshot - Desktop
